@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':restaurant-service:restaurant-domain:restaurant-application-service')
+    api project(':infrastructure:kafka-producer')
+    api project(':infrastructure:kafka-consumer')
+    api project(':infrastructure:kafka-model')
+    implementation 'org.springframework.kafka:spring-kafka'
+}

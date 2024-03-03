@@ -1,0 +1,6 @@
+dependencies {
+    api project(':restaurant-service:restaurant-domain:restaurant-application-service')
+    api project(':common:common-dataaccess')
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.postgresql:postgresql:42.6.1'
+}

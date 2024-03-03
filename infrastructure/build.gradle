@@ -1,0 +1,57 @@
+plugins{
+    id 'org.springframework.boot' version '3.2.0' apply false
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+ext.versions = [
+        springBoot        : '3.2.0',
+        springCloud       : '2023.0.0',
+]
+
+allprojects {
+    apply plugin: 'io.spring.dependency-management'
+    version = '1.0.0'
+    group = 'com.food.ordering.system'
+    dependencyManagement {
+        imports {
+            mavenBom("org.springframework.boot:spring-boot-dependencies:${versions.springBoot}")
+            mavenBom("org.springframework.cloud:spring-cloud-dependencies:${versions.springCloud}")
+        }
+    }
+    repositories {
+        mavenCentral()
+    }
+}
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    repositories {
+        mavenCentral()
+        maven {
+            url("https://packages.confluent.io/maven/")
+        }
+    }
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.30'
+        annotationProcessor 'org.projectlombok:lombok:1.18.30'
+        testCompileOnly 'org.projectlombok:lombok:1.18.30'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+        implementation 'io.confluent:kafka-avro-serializer:7.6.0'
+        api 'org.apache.avro:avro:1.11.3'
+        implementation 'org.springframework.kafka:spring-kafka:3.1.2'
+        implementation 'io.swagger:swagger-annotations:1.6.11'
+        implementation 'io.swagger:swagger-core:1.6.13'
+
+
+
+    }
+    test{
+        useJUnitPlatform()
+    }
+
+}
+jar {
+    enabled = true
+}

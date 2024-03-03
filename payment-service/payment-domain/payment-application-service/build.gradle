@@ -1,0 +1,6 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework:spring-tx'
+    api project (':payment-service:payment-domain:payment-domain-core')
+    api project(':common:common-domain')
+}

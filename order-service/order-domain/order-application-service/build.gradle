@@ -1,0 +1,8 @@
+dependencies {
+    api project(':order-service:order-domain:order-domain-core')
+    api project(':common:common-domain')
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework:spring-tx'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.mockito:mockito-core'
+}

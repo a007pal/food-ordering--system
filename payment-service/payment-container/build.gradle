@@ -1,0 +1,11 @@
+plugins{
+    id 'org.springframework.boot' version '3.2.0'
+}
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.data:spring-data-jpa'
+    api project(':payment-service:payment-dataaccess')
+    api project(':payment-service:payment-domain:payment-application-service')
+    api project(':payment-service:payment-domain:payment-domain-core')
+    api project(':payment-service:payment-messaging')
+}

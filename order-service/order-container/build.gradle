@@ -1,0 +1,13 @@
+plugins{
+    id 'org.springframework.boot' version '3.2.0'
+}
+dependencies {
+    implementation project(':order-service:order-domain:order-domain-core')
+    implementation project(':order-service:order-domain:order-application-service')
+    implementation project(':order-service:order-application')
+    implementation project(':order-service:order-dataaccess')
+    implementation project(':order-service:order-messaging')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.data:spring-data-jpa:3.2.0'
+
+}

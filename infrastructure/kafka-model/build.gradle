@@ -1,0 +1,12 @@
+import com.github.davidmc24.gradle.plugin.avro.GenerateAvroJavaTask
+plugins {
+    id "com.github.davidmc24.gradle.plugin.avro-base" version "1.0.0"
+}
+def generateAvro = tasks.register("generateAvro", GenerateAvroJavaTask) {
+    source("src/main/avro")
+    outputDir = file("src/main/java")
+}
+
+tasks.named("compileJava").configure {
+    source(generateAvro)
+}
