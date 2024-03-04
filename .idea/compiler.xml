@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="food-ordering-system.infrastructure.kafka-consumer.main" />
+        <module name="food-ordering-system.infrastructure.kafka-model.main" />
+        <module name="food-ordering-system.common.common-dataaccess.main" />
+        <module name="food-ordering-system.common.common-domain.test" />
+        <module name="food-ordering-system.order-service.order-application.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-domain.restaurant-application-service.main" />
+        <module name="food-ordering-system.order-service.order-domain.test" />
+        <module name="food-ordering-system.order-service.order-dataaccess.main" />
+        <module name="food-ordering-system.payment-service.payment-domain.test" />
+        <module name="food-ordering-system.restaurant-service.restaurant-dataaccess.test" />
+        <module name="food-ordering-system.infrastructure.kafka-config-data.test" />
+        <module name="food-ordering-system.restaurant-service.restaurant-container.test" />
+        <module name="food-ordering-system.infrastructure.kafka-producer.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-domain.restaurant-domain-core.test" />
+        <module name="food-ordering-system.payment-service.payment-domain.payment-domain-core.test" />
+        <module name="food-ordering-system.order-service.order-container.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-messaging.main" />
+        <module name="food-ordering-system.infrastructure.kafka-consumer.test" />
+        <module name="food-ordering-system.payment-service.payment-domain.payment-application-service.main" />
+        <module name="food-ordering-system.order-service.order-domain.order-domain-core.test" />
+        <module name="food-ordering-system.payment-service.payment-container.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-dataaccess.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-messaging.test" />
+        <module name="food-ordering-system.payment-service.payment-dataaccess.test" />
+        <module name="food-ordering-system.order-service.order-domain.main" />
+        <module name="food-ordering-system.infrastructure.kafka-config-data.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-domain.restaurant-application-service.test" />
+        <module name="food-ordering-system.infrastructure.kafka-producer.test" />
+        <module name="food-ordering-system.common.common-application.test" />
+        <module name="food-ordering-system.common.common-dataaccess.test" />
+        <module name="food-ordering-system.order-service.order-application.test" />
+        <module name="food-ordering-system.order-service.order-container.test" />
+        <module name="food-ordering-system.infrastructure.kafka-model.test" />
+        <module name="food-ordering-system.infrastructure.saga.test" />
+        <module name="food-ordering-system.order-service.order-domain.order-domain-core.main" />
+        <module name="food-ordering-system.order-service.order-messaging.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-domain.test" />
+        <module name="food-ordering-system.order-service.order-domain.order-application-service.main" />
+        <module name="food-ordering-system.payment-service.payment-domain.payment-domain-core.main" />
+        <module name="food-ordering-system.payment-service.payment-messaging.main" />
+        <module name="food-ordering-system.payment-service.payment-container.test" />
+        <module name="food-ordering-system.payment-service.payment-domain.payment-application-service.test" />
+        <module name="food-ordering-system.common.common-domain.main" />
+        <module name="food-ordering-system.payment-service.payment-dataaccess.main" />
+        <module name="food-ordering-system.order-service.order-messaging.test" />
+        <module name="food-ordering-system.restaurant-service.restaurant-domain.main" />
+        <module name="food-ordering-system.payment-service.payment-domain.main" />
+        <module name="food-ordering-system.restaurant-service.restaurant-container.main" />
+        <module name="food-ordering-system.common.common-application.main" />
+        <module name="food-ordering-system.infrastructure.saga.main" />
+        <module name="food-ordering-system.order-service.order-dataaccess.test" />
+        <module name="food-ordering-system.payment-service.payment-messaging.test" />
+        <module name="food-ordering-system.order-service.order-domain.order-application-service.test" />
+        <module name="food-ordering-system.restaurant-service.restaurant-domain.restaurant-domain-core.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

@@ -20,6 +20,7 @@ include':infrastructure:kafka-config-data'
 include':infrastructure:kafka-consumer'
 include':infrastructure:kafka-model'
 include':infrastructure:kafka-producer'
+include':infrastructure:saga'
 
 // include customer service
 include'customer-service'
